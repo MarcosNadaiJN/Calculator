@@ -254,16 +254,16 @@
         />
 
     <Button
-        android:id="@+id/btn_DoubleZero"
-        android:text="00"
-        style="@style/NumberButtons"
+        android:id="@+id/btn_ClearAll"
+        android:text="AC"
+        style="@style/FunctionalButtons"
         android:layout_column="2"
         android:layout_row="4"
         android:layout_columnWeight="1"
         android:layout_marginTop="2dp"
         android:layout_marginLeft="2dp"
         android:layout_marginRight="2dp"
-        android:onClick="DoubleZero"
+        android:onClick="ClearAll"
         />
 
 

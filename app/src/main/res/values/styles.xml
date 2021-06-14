@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FunctionalButtons">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">80sp</item>
+        <item name="android:textColor">@color/colorFuncButtonTxt</item>
+        <item name="android:background">@drawable/func_round_rectangle_buttons</item>
+    </style>
+
+    <style name="NumberButtons">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">80sp</item>
+        <item name="android:textColor">@color/colorNumButtonTxt</item>
+        <item name="android:background">@drawable/num_round_rectangle_button</item>
+    </style>
+
+    <style name="EqualButton">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/colorEqualButtonTxt</item>
+        <item name="android:background">@drawable/equal_round_rectangle_button</item>
+    </style>
+</resources>

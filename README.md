@@ -7,7 +7,7 @@ You may not use the eval() function to execute calculations.
 User Stories
  User can see a display showing the current number entered or the result of the last operation.
  
- User can see an entry pad containing buttons for the digits 0-9, operations - '+', '-', '/', and '=', a 'C' button (for clear), and an 'AC' button (for clear all).
+ User can see an entry pad containing buttons for the digits 00 and 0-9, operations - '+', '-', '/', '*',  and '=', a 'C' button (for clear), and an 'AC' button (for clear all).
  
  User can enter numbers as sequences up to 12 digits long by clicking on digits in the entry pad. Entry of any digits more than 12 will be ignored.
  

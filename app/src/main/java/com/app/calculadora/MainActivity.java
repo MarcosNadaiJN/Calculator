@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Equal(View view) {
         Double inputConverted = new DoubleEvaluator().evaluate(Functions.concatArrayListToString(StringInput));
+        //System.out.println(new DoubleEvaluator().evaluate(""));
         //Formating Double to 5 Decimal.
         DecimalFormat decimalF = new DecimalFormat("#.#####");
         String formattedOutput = decimalF.format(inputConverted);
@@ -107,19 +108,15 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void Pencentage(View view) {
-        if (Functions.DuplicatedSimbols(StringInput) == false) {
-            StringInput.add("%");
-            input.setText(Functions.concatArrayListToString(StringInput));
-        } else {
-            StringInput.remove(StringInput.get(StringInput.size() -1 ));
-            StringInput.add("%");
+
+    /*  Number Buttons */
+
+    public void DoubleZero(View view) {
+        if (Functions.DigitsAllowedSize(StringInput)) {
+            StringInput.add("00");
             input.setText(Functions.concatArrayListToString(StringInput));
         }
     }
-
-
-    /*  Number Buttons */
 
     public void Zero(View view) {
         if (Functions.DigitsAllowedSize(StringInput)) {

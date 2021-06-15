@@ -17,9 +17,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="bottom"
         android:layout_margin="2dp"
-        >
+        android:gravity="bottom">
+
         <include
             layout="@layout/calc_butons"
             android:layout_width="match_parent"

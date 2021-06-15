@@ -9,28 +9,28 @@
 
     <Button
         android:id="@+id/btn_clear"
-        android:text="C"
         style="@style/FunctionalButtons"
-        android:layout_column="0"
+        android:layout_height="84dp"
         android:layout_row="0"
+        android:layout_column="0"
         android:layout_columnWeight="1"
-        android:layout_marginTop="2dp"
         android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
         android:layout_marginRight="2dp"
         android:onClick="clear"
-        />
+        android:text="C" />
 
     <Button
-        android:id="@+id/btn_Pencentage"
-        android:text="%"
-        style="@style/FunctionalButtons"
-        android:layout_column="1"
-        android:layout_row="0"
+        android:id="@+id/btn_DoubleZero"
+        android:text="00"
+        style="@style/NumberButtons"
+        android:layout_column="2"
+        android:layout_row="4"
         android:layout_columnWeight="1"
         android:layout_marginTop="2dp"
         android:layout_marginLeft="2dp"
         android:layout_marginRight="2dp"
-        android:onClick="Pencentage"
+        android:onClick="DoubleZero"
         />
 
     <Button
@@ -257,8 +257,8 @@
         android:id="@+id/btn_ClearAll"
         android:text="AC"
         style="@style/FunctionalButtons"
-        android:layout_column="2"
-        android:layout_row="4"
+        android:layout_column="1"
+        android:layout_row="0"
         android:layout_columnWeight="1"
         android:layout_marginTop="2dp"
         android:layout_marginLeft="2dp"

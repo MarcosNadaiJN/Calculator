@@ -13,17 +13,8 @@ public class Functions {
         return sb.toString();
     }
 
-    public static Integer concatArrayListToInteger (ArrayList<String> Digits){
-        StringBuilder sb = new StringBuilder();
-        for (String s : Digits)
-        {
-            sb.append(s);
-        }
-        return Integer.parseInt(sb.toString());
-    }
-
     public static Boolean DigitsAllowedSize (ArrayList<String> Digits) {
-        return Digits.size() < 9;
+        return Digits.size() < 12;
     }
 
     public static Boolean DuplicatedSimbols (ArrayList<String> Digits) {
@@ -36,18 +27,4 @@ public class Functions {
         }
         return false;
     }
-//    public static String RemoveDoubleQuotes (ArrayList<String> Digits) {
-//        String Equation = concatArrayListToString(Digits);
-//
-//        StringBuilder sb = new StringBuilder();
-//
-//        char[] tab = Equation.toCharArray();
-//        for( char current : tab ){
-//            if( current != '"' )
-//                sb.append( current );
-//        }
-//
-//        return sb.toString();
-//    }
-
 }

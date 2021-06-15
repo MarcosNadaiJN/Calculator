@@ -23,6 +23,31 @@ public class Functions {
     }
 
     public static Boolean DigitsAllowedSize (ArrayList<String> Digits) {
-        return Digits.size() < 8;
+        return Digits.size() < 9;
     }
+
+    public static Boolean DuplicatedSimbols (ArrayList<String> Digits) {
+        if (       Digits.get(Digits.size() - 1).equals("+")
+                || Digits.get(Digits.size() - 1).equals("-")
+                || Digits.get(Digits.size() - 1).equals("/")
+                || Digits.get(Digits.size() - 1).equals("*")
+                || Digits.get(Digits.size() - 1).equals("%")) {
+            return true;
+        }
+        return false;
+    }
+//    public static String RemoveDoubleQuotes (ArrayList<String> Digits) {
+//        String Equation = concatArrayListToString(Digits);
+//
+//        StringBuilder sb = new StringBuilder();
+//
+//        char[] tab = Equation.toCharArray();
+//        for( char current : tab ){
+//            if( current != '"' )
+//                sb.append( current );
+//        }
+//
+//        return sb.toString();
+//    }
+
 }
